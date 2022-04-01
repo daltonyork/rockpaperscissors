@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Rock Paper Scissors</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="body">
+        <div class="header">
+            <h1 class="header-text">Rock Paper Scissors</h1>
+        </div>
+        <div class="center">
+            <div class="rockPaperScissorsGame">
+                <div class="resultTextBox">
+                    <p id="resultText" value="Choose your weapon!">Choose your weapon!</p>
+                </div>
+                <div class="scoreboard">
+                    <div class="playerScore">
+                        <div id="playerChoiceImage">
+                            <img src="assets/blank.png" width="100px" height="100px" id="playerImage">
+                        </div>
+                        <p class="playerScoreHeader">Player</p>
+                        <p id="playerScoreText" value="0">0</p>
+                    </div>
+                    <div class="computerScore">
+                        <div id="computerChoiceImage">
+                            <img src="assets/blank.png" width="100px" height="100px" id="computerImage">
+                        </div>
+                        <p class="computerScoreHeader">Computer</p>
+                        <p id="computerScoreText" value="0">0</p>
+                    </div>
+                </div>
+                <div class="select">
+                    <button id="rockButton">
+                        <img src="assets/rock.png" width="100px" height="100px" class="rock">
+                    </button>
+                    <button id="paperButton">
+                        <img src="assets/paper.png" width="100px" height="100px" class="paper">
+                    </button>
+                    <button id="scissorsButton">
+                        <img src="assets/scissors.png" width="100px" height="100px" class="scissors">
+                    </button>
+                </div>
+            </div>
+            <button onClick="window.location.reload();" id="newGame">New Game</button>
+        </div>
+        <div class="footer">
+            <p class="footer-text">Copyright © Dalton York</p>
+        </div>
+    </body>
+</html>
+<script src="script.js"></script>

@@ -1,0 +1,224 @@
+.color-text { 
+    background: white; 
+}
+	
+.color-headers { 
+	background: #dbd8e3; 
+}
+
+.color-backgrounds { 
+	background: #352f44; 
+}
+
+.color-divs { 
+	background: #2a2438; 
+}
+
+/* --------------- */
+
+* {
+    background-color: #352f44;
+}
+
+html {
+    height: 100%;   
+}
+
+.body {
+    background-color: #352f44;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.header {
+    background-color: #2a2438;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0 100%;
+    height: 75px;
+}
+
+.header-text {
+    background-color: #2a2438;
+    color: #dbd8e3;
+}
+
+
+.center {
+    background-color: #352f44;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+/* ---- Main Game ---- */
+
+.rockPaperScissorsGame {
+    background-color: #352f44;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: fit-content;
+}
+
+.resultTextBox {
+    width: 75%;
+    height: 50px;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#resultText {
+    color: #dbd8e3;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.scoreboard {
+    width: 75%;
+    height: 200px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 5px;
+}
+
+.playerScore {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#playerChoiceImage {
+    width: 100px;
+    height: 100px;
+}
+
+.playerScoreHeader {
+    color: white;
+    font-size: 32px;
+    margin: 20px;
+}
+
+#playerScoreText {
+    color: gainsboro;
+    font-size: 32px;
+    margin: 10px;
+}
+
+.computerScore {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#computerChoiceImage {
+    width: 100px;
+    height: 100px;
+}
+
+.computerScoreHeader {
+    color: white;
+    font-size: 32px;
+    margin: 20px;
+}
+
+#computerScoreText {
+    color: gainsboro;
+    font-size: 32px;
+    margin: 10px;
+}
+
+.select {
+    width: 75%;;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 5px;
+    margin: 30px;
+}
+
+#rockButton {
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    background-color: #2a2438;
+    border-radius: 25%;
+    border: none;
+}
+
+.rock {
+    background-color: #2a2438;
+}
+
+#paperButton {
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    background-color: #2a2438;
+    border-radius: 25%;
+    border: none;
+}
+
+.paper {
+    background-color: #2a2438;
+}
+
+#scissorsButton {
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    background-color: #2a2438;
+    border-radius: 25%;
+    border: none;
+}
+
+.scissors {
+    background-color: #2a2438;
+}
+
+#newGame {
+    background-color: gray;
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    align-self: center;
+    justify-self: center;
+}
+
+/* ---- End of Game Section ---- */
+
+.footer {
+    background-color: #2a2438;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+}
+
+.footer-text {
+    background-color: #2a2438;
+    color: white;
+}
